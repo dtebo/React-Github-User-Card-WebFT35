@@ -8,7 +8,7 @@ const UserCard = props => {
             <h2>UserInfo Here...</h2>
             <MUI.Card>
                 <MUI.CardContent>
-                    <MUI.Typography variant='body2' component='body2'>
+                    <MUI.Typography variant='body2' component='p'>
                         Test
                     </MUI.Typography>
                 </MUI.CardContent>

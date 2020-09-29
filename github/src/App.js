@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import UserCard from './components/UserCard/UserCard';
+import { fetchUserData } from './fetch/index';
 
 class App extends Component {
   state = {

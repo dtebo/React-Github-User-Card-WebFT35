@@ -3,6 +3,10 @@ div.user-card{
     width: 500px;
 }
 
+div.user-card .card-header{
+    padding-right: 25px;
+}
+
 div.user-card .card-title{
     font-weight: 700;
     font-size: 1.4rem;

@@ -11,7 +11,25 @@ const UserCard = props => {
         <>
             <h2>Github User</h2>
             <MUI.Card className='user-card'>
+                <MUI.CardHeader
+                    className='card-header'
+                    action={
+                        <>
+                            <MUI.Typography
+                                variant='body1'
+                                component='p'
+                            >
+                                Followers 
+                            </MUI.Typography>
+                            <MUI.Badge
+                                badgeContent={user.followers}
+                                color='primary'
+                            />
+                        </>
+                    }
+                />
                 <MUI.CardContent>
+
                     <MUI.Typography
                         className='card-title' 
                         variant='body2'

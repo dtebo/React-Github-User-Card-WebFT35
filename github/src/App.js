@@ -6,8 +6,21 @@ import { fetchUserData } from './fetch/index';
 
 class App extends Component {
   state = {
-    user: {}
+    user: 'dtebo',
+    userdata: {}
   };
+
+  componentDidMount(){
+    fetchUserData(this.state.user)
+      .then(res => {
+        console.log("App: DT: ", res);
+        
+        //Save the response to state
+        this.setState({
+          userdata: res
+        });
+      });
+  }
 
   render(){
     return (

@@ -1,0 +1,19 @@
+div.user-card{
+    margin: 0 auto;
+    width: 700px;
+}
+
+div.user-card .card-header{
+    padding-right: 25px;
+}
+
+div.user-card .card-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: left;
+    width: 20px;
+}
+
+div.user-card img{
+    width: 80%;
+}

@@ -10,4 +10,6 @@ div.user-card .card-header{
 div.user-card .card-title{
     font-weight: 700;
     font-size: 1.4rem;
+    text-align: left;
+    width: 20px;
 }

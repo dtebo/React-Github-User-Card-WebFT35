@@ -13,6 +13,23 @@ const UserCard = props => {
             <MUI.Card className='user-card'>
                 <MUI.CardHeader
                     className='card-header'
+                    avatar={
+                        <>
+                            <MUI.Typography
+                                className='card-title' 
+                                variant='body2'
+                                component='p'
+                            >
+                                {user.login}
+                            </MUI.Typography>
+                            <MUI.Typography
+                                variant='body2'
+                                component='p'
+                            >
+                                {user.bio}
+                            </MUI.Typography>
+                        </>
+                    }
                     action={
                         <>
                             <MUI.Typography
@@ -30,19 +47,7 @@ const UserCard = props => {
                 />
                 <MUI.CardContent>
 
-                    <MUI.Typography
-                        className='card-title' 
-                        variant='body2'
-                        component='p'
-                    >
-                        {user.login}
-                    </MUI.Typography>
-                    <MUI.Typography
-                        variant='body2'
-                        component='p'
-                    >
-                        {user.bio}
-                    </MUI.Typography>
+                    
                 </MUI.CardContent>
             </MUI.Card>
         </>

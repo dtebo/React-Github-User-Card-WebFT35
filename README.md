@@ -25,7 +25,7 @@ Follow these steps for completing your project.
 
 - [x] Submit a Pull-Request to merge <firstName-lastName> Branch into main (student's Repository). **Please don't merge your own pull request**
 - [x] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas
+- [x] Copy the URL and paste it into Canvas
 
 ### Task 2: Minimum Viable Product
 
@@ -81,4 +81,4 @@ After finishing your required elements, you can push your work further. These go
 
 - [x] Submit a Pull-Request to merge <firstName-lastName> Branch into `main` (student's Repository). **Please don't merge your own pull request**
 - [x] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas to submit your project
+- [x] Copy the URL and paste it into Canvas to submit your project

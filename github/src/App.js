@@ -25,7 +25,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <UserCard user={this.state.user} />
+        <UserCard user={this.state.userdata} />
       </div>
     );
   }

@@ -1,0 +1,9 @@
+div.user-card{
+    margin: 0 auto;
+    width: 500px;
+}
+
+div.user-card .card-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+}

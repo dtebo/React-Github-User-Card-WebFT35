@@ -11,6 +11,7 @@ class App extends Component {
   };
 
   componentDidMount(){
+    console.log("App: DT: ", this.state.usergraph);
     fetchUserData(this.state.user)
       .then(res => {
         console.log("App: DT: ", res);
@@ -25,7 +26,10 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <UserCard user={this.state.userdata} />
+        <UserCard
+          user={this.state.userdata}
+          graph={this.state.usergraph}
+        />
       </div>
     );
   }

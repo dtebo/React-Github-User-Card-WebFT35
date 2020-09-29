@@ -5,7 +5,7 @@ import * as MUI from '../../materialui/index';
 import './User.css';
 
 const UserCard = props => {
-    const { user } = props;
+    const { user, graph } = props;
 
     return(
         <>
@@ -46,8 +46,7 @@ const UserCard = props => {
                     }
                 />
                 <MUI.CardContent>
-
-                    
+                    <img src="http://ghchart.rshah.org/2016rshah" alt="2016rshah's Github chart" />
                 </MUI.CardContent>
             </MUI.Card>
         </>

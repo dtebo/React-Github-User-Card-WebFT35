@@ -1,6 +1,6 @@
 div.user-card{
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
 }
 
 div.user-card .card-header{
@@ -12,4 +12,8 @@ div.user-card .card-title{
     font-size: 1.4rem;
     text-align: left;
     width: 20px;
+}
+
+div.user-card img{
+    width: 80%;
 }
